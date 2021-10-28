@@ -35,6 +35,15 @@ const CustomModal = () => {
     );
   }, [download_url, globalGrayScale]);
 
+  useEffect(()=>{
+if(modalOpen){
+  document.body.style.overflow="hidden";
+}
+return()=>{
+  document.body.style.overflow="auto";
+
+}
+  },[modalOpen])
   const handleUrl = () => {
     setBtnState(BTN_STATE.LOADING);
     if (localGray) {

@@ -24,6 +24,7 @@
   }
 
   function removeParam(key, sourceURL) {
+    if(!sourceURL) return sourceURL;
     var rtn = sourceURL.split("?")[0],
         param,
         params_arr = [],

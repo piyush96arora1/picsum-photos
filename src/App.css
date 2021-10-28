@@ -29,7 +29,7 @@
   bottom: auto;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  position: absolute;
+  position: fixed;
   background-color: white;
   border-radius: 8px;
   display: flex;
@@ -38,6 +38,7 @@
   justify-content: center;
   border: none;
   outline: none;
+  border: 3px solid black;
 }
 @media only screen and (max-width: 767px) {
   .modal-wrapper {

@@ -17,11 +17,11 @@ const StyledImage = styled.div`
     }
 
     @media only screen and (max-width: 767px) {
-      height: 150px;
+      height: 170px;
       width: 170px;
       .image {
-        height: 150px;
-        width: 150px;
+        height: 170px;
+        width: 170px;
       }
     }
   
